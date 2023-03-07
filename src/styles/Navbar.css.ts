@@ -113,7 +113,7 @@ export const styles = mergeStyleSets({
       },
     },
     ":hover":{
-        pointer:"cursor",
+        cursor:"pointer",
         svg:{
             path:{
                 fill:Colors.PureWhite

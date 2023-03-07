@@ -9,7 +9,6 @@ export const NavBar = () => {
   const [iconSize, setIconSize] = React.useState<number>(0);
 
   React.useEffect(() => {
-    console.log({...windowSize,iconSize});
     setIconSize(() => {
       if (windowSize.width > windowSize.height) {
         // Landscape

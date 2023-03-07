@@ -1,0 +1,40 @@
+import { mergeStyleSets } from "@fluentui/merge-styles";
+
+export const styles =mergeStyleSets({
+    cardWrapper:{
+        position:'absolute',
+        height:"86%",
+        width:"100%",
+        top:0,
+        left:0,
+        borderRadius:"25px",
+        "z-index":10,
+    },
+    cardBookmark:{
+        position:'absolute',
+        top:20,
+        right:20,
+        backgroundColor:"rgba(0,0,0,.6)",
+        height:"20%",
+        width:"15%",
+        borderRadius:"50%",
+        display:'flex',
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    cardIcon:{
+        transform:"scale(3)"
+    },
+    cardContainer:{
+        minWidth:"60%",
+        marginRight:"25px",
+        borderRadius:"25px",
+        position:'relative'
+    },
+    cardImage:{
+        width:"100%",
+        maxHeight:"80%",
+        height:"auto",
+        borderRadius:"inherit"
+    }
+})
